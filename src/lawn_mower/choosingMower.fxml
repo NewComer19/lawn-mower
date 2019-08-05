@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="lawn_mower.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="382.0" prefWidth="559.0">
+         <children>
+            <Label alignment="CENTER" layoutX="183.0" layoutY="14.0" prefHeight="18.0" prefWidth="193.0" text="Select type of power supply system" />
+            <RadioButton fx:id="fuelRadBtn" layoutX="139.0" layoutY="50.0" mnemonicParsing="false" text="Fuel" />
+            <RadioButton fx:id="electricityRadBtn" layoutX="258.0" layoutY="50.0" mnemonicParsing="false" text="Electrical" />
+            <RadioButton fx:id="manualRadBtn" layoutX="393.0" layoutY="50.0" mnemonicParsing="false" text="Manual" />
+            <Label alignment="CENTER" layoutX="198.0" layoutY="88.0" prefHeight="18.0" prefWidth="162.0" text="Select type of cutting system" />
+            <CheckBox fx:id="bladesCheckBx" layoutX="139.0" layoutY="126.0" mnemonicParsing="false" text="Blades" />
+            <CheckBox fx:id="stringCheckBx" layoutX="258.0" layoutY="126.0" mnemonicParsing="false" text="String" />
+            <CheckBox fx:id="chainsCheckBx" layoutX="393.0" layoutY="126.0" mnemonicParsing="false" text="Chains" />
+            <Label alignment="CENTER" layoutX="198.0" layoutY="171.0" prefHeight="18.0" prefWidth="162.0" text="Select type of moving system" />
+            <RadioButton fx:id="wheelsRadBtn" layoutX="139.0" layoutY="202.0" mnemonicParsing="false" text="Wheels" />
+            <RadioButton fx:id="armsRadBtn" layoutX="393.0" layoutY="202.0" mnemonicParsing="false" text="Arms" />
+            <Label alignment="CENTER" layoutX="198.0" layoutY="229.0" prefHeight="18.0" prefWidth="194.0" text="Select additional systems if needed" />
+            <CheckBox fx:id="grassCheckBx" layoutX="133.0" layoutY="264.0" mnemonicParsing="false" text="Grass collector" />
+            <CheckBox fx:id="mulchingCheckBx" layoutX="245.0" layoutY="264.0" mnemonicParsing="false" text="Mulching" />
+            <CheckBox fx:id="aerationCheckBx" layoutX="382.0" layoutY="264.0" mnemonicParsing="false" text="Aeration" />
+            <Button fx:id="proceedBtn" layoutX="249.0" layoutY="322.0" mnemonicParsing="false" text="Proceed" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>

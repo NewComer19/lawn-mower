@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1367.0" y="274.5">PowerSystem.PowerSupplySystem</node>
+    <node x="1612.0" y="296.5">MovingSystem.MovingSystem</node>
+    <node x="1113.25" y="814.0">lawn_mower.View</node>
+    <node x="0.0" y="0.0">lawn_mower.Controller</node>
+    <node x="0.0" y="1461.0">AdditionalSystems.AdditionalSystems</node>
+    <node x="878.0" y="319.0">Transmission.Transmission</node>
+    <node x="589.0" y="319.0">ControlSystem.ControlSystem</node>
+    <node x="1132.0" y="296.5">CuttingSystem.CuttingSystem</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="lawn_mower.View" target="PowerSystem.PowerSupplySystem">
+      <point x="98.18181818181813" y="-301.0" />
+      <point x="1391.431818181818" y="774.0" />
+      <point x="1554.5" y="774.0" />
+      <point x="75.0" y="92.5" />
+    </edge>
+    <edge source="lawn_mower.View" target="CuttingSystem.CuttingSystem">
+      <point x="0.0" y="-301.0" />
+      <point x="53.75" y="70.5" />
+    </edge>
+    <edge source="lawn_mower.View" target="ControlSystem.ControlSystem">
+      <point x="-98.18181818181819" y="-301.0" />
+      <point x="1195.0681818181818" y="774.0" />
+      <point x="723.5" y="774.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="lawn_mower.View" target="lawn_mower.Controller">
+      <point x="-130.90909090909093" y="-301.0" />
+      <point x="1162.340909090909" y="784.0" />
+      <point x="426.75" y="784.0" />
+      <point x="142.25" y="367.0" />
+    </edge>
+    <edge source="lawn_mower.View" target="MovingSystem.MovingSystem">
+      <point x="130.90909090909088" y="-301.0" />
+      <point x="1424.159090909091" y="784.0" />
+      <point x="1672.0" y="784.0" />
+      <point x="-60.0" y="70.5" />
+    </edge>
+    <edge source="lawn_mower.View" target="Transmission.Transmission">
+      <point x="-65.4545454545455" y="-301.0" />
+      <point x="1227.7954545454545" y="764.0" />
+      <point x="995.0" y="764.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8000000000000003" x="741.2499999999998" y="1007.7499999999999" />
+  <SelectedNodes>
+    <node>ControlSystem.ControlSystem</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
